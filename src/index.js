@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import NavbarPrincipal from './Components/header/header';
 import reportWebVitals from './reportWebVitals';
+import SliderHome from './Components/sliderPrincipal';
+import BannerPrincipal from './Components/bannerPrincipal';
+import ContainerPrincipalHome from './Components/cuerpoHome';
+import FooterGral from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BannerPrincipal />
+    <NavbarPrincipal />
+    <SliderHome />
+    <ContainerPrincipalHome />
+    <FooterGral />
   </React.StrictMode>
 );
 

@@ -1,0 +1,15 @@
+#btnBusqueda {
+    background-image: url(/assets/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+#btnBusqueda :hover {
+    border: none !important;
+
+}
+
+#stylesNavbar{
+    background-color: #d9ce96;
+}
+
