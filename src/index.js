@@ -7,7 +7,7 @@ import FooterGral from "./Components/Home/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SliderHome from "./Components/Home/sliderPrincipal";
 import ContainerPrincipalHome from "./Components/Home/cuerpoHome";
-import Prueba from "./Components/prueba";
+import ProyectosHome from "./Components/proyectosInvestigación/totalProyectos"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,7 +21,10 @@ root.render(
             <ContainerPrincipalHome />
           </Route>
           <Route path="/contacto">
-           <Prueba />
+            
+          </Route>
+          <Route path="/nuestros-proyectos">
+            <ProyectosHome />
           </Route>
         </Switch>
       <FooterGral />

@@ -10,9 +10,18 @@ function FooterGral() {
           <div className="col-md-5 col-sm-6">
             <h4>Centro de Investigaciones</h4>
             <ul className="list-unstyled">
-              <li className="listDetail">Institucional</li><a href="/home">{" "}</a>
-              <li className="listDetail">Conocenos</li><a href="/home">{" "}</a>
-              <li className="listDetail">Nuestros proyectos</li><a href="/home">{" "}</a>
+              <a className="linkFooter" href="/">
+                {" "}
+                <li className="listDetail">Institucional</li>
+              </a>
+              <a className="linkFooter" href="/">
+                {" "}
+                <li className="listDetail">Conocenos</li>
+              </a>
+              <a className="linkFooter" href="/">
+                {" "}
+                <li className="listDetail">Nuestros proyectos</li>
+              </a>
             </ul>
           </div>
           {/* Column 2 */}
@@ -43,20 +52,20 @@ function FooterGral() {
             </ul>
           </div>
           <div className="newsletterFooter col-md-4 col-sm-6">
-            <h6 class="my-3"> Subscribirse a Newsletter </h6>
+            <h6 className="my-3"> Subscribirse a Newsletter </h6>
 
-            <div class="row d-flex my-2 pr-2 pr-md-5 div1">
-              <div class="col-9">
+            <div className="row d-flex my-2 pr-2 pr-md-5 div1">
+              <div className="col-9">
                 <input
                   type="email"
-                  class="form-control py-3"
+                  className="form-control py-3"
                   id="inp1"
                   placeholder="Ingrese correo electrónico"
                 />
               </div>
 
-              <div class="col-3 px-0">
-                <button class="btnFooter text-white px-4 py-2"> OK </button>
+              <div className="col-3 px-0">
+                <button className="btnFooter text-white px-4 py-2"> OK </button>
               </div>
             </div>
           </div>

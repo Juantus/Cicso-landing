@@ -65,3 +65,8 @@
 .footer-bottom {
     text-align: center;
 }
+
+.linkFooter {
+    text-decoration: none;
+    color: #030303;
+}

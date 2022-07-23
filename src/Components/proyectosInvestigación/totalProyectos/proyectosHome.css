@@ -1,0 +1,52 @@
+.rowContainerProyectos {
+    padding: 10px 0;
+}
+
+.cardStyle {
+    border-radius: 10px;
+}
+
+.containerTitle {
+    padding: 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#tituloSeccion {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.parrafoDetalle {
+    font-size: 14px;
+    color: rgb(88, 88, 88) ;
+    text-align: center;
+}
+
+.textExplicativo {
+    padding: 10px;
+}
+
+.footerCard {
+    padding-top: 5px;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 0;
+}
+
+.btnDescarga {
+    width: 90%;
+    box-shadow: .5px 3px #e5e5e5;
+}
+
+.cuerpoCard {
+    background-color: #f3f3f3;
+    padding: 10px 0 0 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}

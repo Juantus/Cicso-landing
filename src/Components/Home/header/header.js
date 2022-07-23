@@ -27,7 +27,7 @@ function NavbarPrincipal() {
                 Proyecto 2
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="/nuestros-proyectos">
                 Todos los proyectos
               </NavDropdown.Item>
             </NavDropdown>
