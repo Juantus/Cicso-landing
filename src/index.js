@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import NavbarPrincipal from "./Components/Home/header/header";
-import BannerPrincipal from "./Components/Home/header/bannerPrincipal";
+import BannerPrincipal from "./Components/Home/bannerPrincipal";
 import FooterGral from "./Components/Home/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SliderHome from "./Components/Home/sliderPrincipal";
