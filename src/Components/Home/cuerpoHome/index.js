@@ -16,7 +16,7 @@ function ContainerPrincipalHome() {
           {Array.from({ length: 4 }).map((_, idx) => (
             <Col>
               <Card>
-                <Card.Img variant="top" src="https://www.mastekhw.com/wp-content/uploads/2022/07/Corsair-iCUE-se-integrara-con-Nvidia-Broadcast-540x170.png" />
+                <Card.Img variant="top" src="https://1.bp.blogspot.com/-35eGOZoeboo/YEuSWa6q5bI/AAAAAAAAfOw/qNU4DgHXuwAe9Wq40f8T70tSNNdMvyawACLcBGAsYHQ/s540/N6198a.png" />
                 <Card.Body>
                   <Card.Title>Card title</Card.Title>
                   <Card.Text>

@@ -19,8 +19,8 @@ function NavbarPrincipal() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Inicio</Nav.Link>
-            <Nav.Link href="#action2">Quienes Somos</Nav.Link>
+            <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/contacto">Quienes Somos</Nav.Link>
             <NavDropdown title="Proyectos de Investigación" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Poyecto 1</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
